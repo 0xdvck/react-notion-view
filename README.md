@@ -20,7 +20,7 @@ An implementation of Momos's challenge.
 
 1. Clone or download this repository to your local machine, then extract and open the folder.
 2. Run `docker compose up` to deploy application. If `docker compose up` doesn’t work, please spin up the client and server in their respective folders.
-3. Access the UI with default domain `localhost:8000`
+3. Access the UI with default domain `localhost:3000`
 
 ### Notion token
 1. You can use your own notion token (`NOTION_TOKEN`, `NOTION_DATABASE_ID`)
