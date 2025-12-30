@@ -11,6 +11,9 @@ services:
       - "3000:3000"
     networks:
       - notion
+    environment:
+      NOTION_TOKEN: 
+      NOTION_DATABASE_ID:  
 
 networks:
   notion:
