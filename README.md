@@ -23,9 +23,9 @@ An implementation of Momos's challenge.
 3. Access the UI with default domain `localhost:8000`
 
 ### Notion token
-1. You can use your own notion token (NOTION_TOKEN, NOTION_DATABASE_ID)
-2. Or you can also use this CRM [database](https://www.notion.so/Sales-CRM-2d4eda51cc70809399f6f429555e7baf?source=copy_link). The necessary token has already been sent to your email
-  - You need to replace NOTION_TOKEN, NOTION_DATABASE_ID in file `server/src/notion/notion.service.js`
+1. You can use your own notion token (`NOTION_TOKEN`, `NOTION_DATABASE_ID`)
+2. Or you can also use this CRM [database](https://www.notion.so/Sales-CRM-2d4eda51cc70809399f6f429555e7baf?source=copy_link). The necessary token has already been sent to HR email
+   - You need to replace `NOTION_TOKEN`, `NOTION_DATABASE_ID` in file `server/src/notion/notion.service.js`
     
 ## Task List
 
