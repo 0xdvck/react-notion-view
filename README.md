@@ -12,7 +12,7 @@ An implementation of Momos's challenge.
 
 ## Prerequisites
 
-- [Docker] https://github.com/docker lastest
+- [Docker](https://github.com/docker) lastest
 
 ## Setup
 
@@ -22,11 +22,11 @@ An implementation of Momos's challenge.
 2. Run `docker-compose up` to deploy application. If `docker-compose up` doesn’t work, please spin up the client and server in their respective folders.
 4. Access the UI with default domain `localhost:8000`
 
-### Notion token
-1. You can use your own notion token (`NOTION_TOKEN`, `NOTION_DATABASE_ID`)
+### Notion tokens
+1. You can use your own notion tokens (`NOTION_TOKEN`, `NOTION_DATABASE_ID`)
    - You need to replace  `NOTION_TOKEN`, `NOTION_DATABASE_ID` in `docker-compose.yaml`
    - Or replace `NOTION_TOKEN`, `NOTION_DATABASE_ID` in `server/src/notion/notion.service.js`
-2. Or you can also use this CRM [database](https://www.notion.so/Sales-CRM-2d4eda51cc70809399f6f429555e7baf?source=copy_link). The necessary token has already been sent to HR email
+2. Or you can also use this CRM [database](https://www.notion.so/Sales-CRM-2d4eda51cc70809399f6f429555e7baf?source=copy_link). The necessary tokens has already been sent to HR email
     
 ## Task List
 
