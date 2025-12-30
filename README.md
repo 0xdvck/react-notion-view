@@ -2,7 +2,7 @@
 
 ## Description
 
-A implementation of Momos's challenge.
+An implementation of Momos's challenge.
 
 ## Table of Contents
 
