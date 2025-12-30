@@ -36,7 +36,7 @@ An implementation of Momos's challenge.
         - [x] Resize columns by hovering over their edges, and dragging right or left
 - [x] Build a Notion filter UI for supporting database filters
   - [x] Support the property types `checkbox`,`rich_text`,`number`
-    - [] Support other types `date`, `multi_select`, `select` , `timestamp` , `status`
+    - [ ] Support other types `date`, `multi_select`, `select` , `timestamp` , `status`
   - [x] Support Compound filters with filter groups (more than 3,4 levels)
   - [x] Implement unit tests for the Compound filters
 - [ ] Stretch Goals
