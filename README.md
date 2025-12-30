@@ -19,12 +19,13 @@ An implementation of Momos's challenge.
 ### Docker
 
 1. Clone or download this repository to your local machine, then extract and open the folder.
-2. Run `docker compose up` to deploy application. If `docker compose up` doesn’t work, please spin up the client and server in their respective folders.
-3. Access the UI with default domain `localhost:3000`
+2. Run `docker-compose up` to deploy application. If `docker-compose up` doesn’t work, please spin up the client and server in their respective folders.
+4. Access the UI with default domain `localhost:8000`
 
 ### Notion token
 1. You can use your own notion token (`NOTION_TOKEN`, `NOTION_DATABASE_ID`)
-   - You need to replace `NOTION_TOKEN`, `NOTION_DATABASE_ID` in file `server/src/notion/notion.service.js`
+   - You need to replace  `NOTION_TOKEN`, `NOTION_DATABASE_ID` in `docker-compose.yaml`
+   - Or replace `NOTION_TOKEN`, `NOTION_DATABASE_ID` in `server/src/notion/notion.service.js`
 2. Or you can also use this CRM [database](https://www.notion.so/Sales-CRM-2d4eda51cc70809399f6f429555e7baf?source=copy_link). The necessary token has already been sent to HR email
     
 ## Task List
