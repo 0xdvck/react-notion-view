@@ -1,0 +1,28 @@
+
+
+.headerCell {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.label {
+    flex-grow: 1;
+    text-align: center;
+    user-select: none;
+}
+
+.verticalDivider {
+    width: 2px;
+    cursor: col-resize;
+    user-select: none;
+    height: 20px;
+    background-color: black;
+}
+
+.isDragging {
+    opacity: 0.8;
+    position: relative;
+    z-index: 1;
+}

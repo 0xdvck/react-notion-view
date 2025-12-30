@@ -1,0 +1,10 @@
+
+
+.sortMenuItem {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    position: relative;
+}

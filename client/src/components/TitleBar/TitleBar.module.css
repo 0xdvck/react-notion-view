@@ -1,0 +1,6 @@
+
+
+.titleBar {
+    display: flex;
+    flex-direction: row;
+}
