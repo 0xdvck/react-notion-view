@@ -2,7 +2,7 @@
 
 ## Description
 
-A implementation of Momos's challenge.
+An implementation of Momos's challenge.
 
 ## Table of Contents
 
@@ -20,8 +20,13 @@ A implementation of Momos's challenge.
 
 1. Clone or download this repository to your local machine, then extract and open the folder.
 2. Run `docker compose up` to deploy application. If `docker compose up` doesn’t work, please spin up the client and server in their respective folders.
-3. Access the UI with default domain `localhost:8000`
+3. Access the UI with default domain `localhost:3000`
 
+### Notion token
+1. You can use your own notion token (`NOTION_TOKEN`, `NOTION_DATABASE_ID`)
+2. Or you can also use this CRM [database](https://www.notion.so/Sales-CRM-2d4eda51cc70809399f6f429555e7baf?source=copy_link). The necessary token has already been sent to HR email
+   - You need to replace `NOTION_TOKEN`, `NOTION_DATABASE_ID` in file `server/src/notion/notion.service.js`
+    
 ## Task List
 
 - [x] Implement a basic given a Notion database as input
@@ -31,15 +36,8 @@ A implementation of Momos's challenge.
         - [x] Resize columns by hovering over their edges, and dragging right or left
 - [x] Build a Notion filter UI for supporting database filters
   - [x] Support the property types `checkbox`,`rich_text`,`number`
-    - [] Support other types `date`, `multi_select`, `select` , `timestamp` , `status`
+    - [ ] Support other types `date`, `multi_select`, `select` , `timestamp` , `status`
   - [x] Support Compound filters with filter groups (more than 3,4 levels)
   - [x] Implement unit tests for the Compound filters
-- [] Stretch Goals
-  - [] Implement the NOT operator for compound filter conditions.
-
-## FAQ
-
-### Can i edit the current notion database
-
-- Yes, you can access and edit the current database from [here](https://www.notion.so/Sales-CRM-2d4eda51cc70809399f6f429555e7baf?source=copy_link)
-
+- [ ] Stretch Goals
+  - [ ] Implement the NOT operator for compound filter conditions.
